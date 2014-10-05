@@ -21,7 +21,7 @@
     // Make the 'content box', which holds the selected mode's content view,
     // a bit smaller to make place for the new divider and text field and move
     // it up by the same offset to locate it in the original position.
-    id contentBox = [[[self contentView] subviews] objectAtIndex: CONTENT_BOX_INDEX];
+    id contentBox = [[self contentView] subviews][CONTENT_BOX_INDEX];
     NSRect contentBoxFrame       = [contentBox frame];
     contentBoxFrame.origin.y    += CONTENT_BOX_OFFSET;
     contentBoxFrame.size.height -= CONTENT_BOX_OFFSET;

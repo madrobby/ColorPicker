@@ -10,8 +10,8 @@
 //
 // This, however, can not be compacted:
 //   "#cbb298" => "#cbb298"
--(NSString *)toHexString;
--(NSString *)toHexStringWithoutHash;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *toHexString;
+@property (NS_NONATOMIC_IOSONLY, readonly, copy) NSString *toHexStringWithoutHash;
 
 -(NSString *)toRGBString:(BOOL)shortVersion;
 -(NSString *)toRGBAString:(BOOL)shortVersion;

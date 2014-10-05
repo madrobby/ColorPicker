@@ -15,7 +15,7 @@
 }
 
 -(IBAction)copy:(id)sender {
-  NSArray *contents = [NSArray arrayWithObject: [panel representationStringOfCurrentColorMode: NO]];
+  NSArray *contents = @[[panel representationStringOfCurrentColorMode: NO]];
   
   NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
   [pasteboard clearContents];
@@ -32,11 +32,11 @@
 }
 
 -(IBAction)paste:(id)sender {
-  NSArray *classes = [NSArray arrayWithObject: [NSString class]];
+  NSArray *classes = @[[NSString class]];
   NSArray *copiedStrings = [[NSPasteboard generalPasteboard] readObjectsForClasses:classes options:nil];
   
   if (copiedStrings && [copiedStrings count] > 0) {
-    NSColor *color = [NSColor colorFromString: [copiedStrings objectAtIndex: 0]];
+    NSColor *color = [NSColor colorFromString: copiedStrings[0]];
     if (color) {
       [panel setColor: color];
       return;

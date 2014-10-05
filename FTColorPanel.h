@@ -17,10 +17,9 @@
   int _colorMode;
 }
 
--(FTColorPanel *)init;
+-(FTColorPanel *)init NS_DESIGNATED_INITIALIZER;
 
--(int)colorMode;
--(void)setColorMode:(int)colorMode;
+@property (NS_NONATOMIC_IOSONLY) int colorMode;
 
 -(NSString *)representationStringOfCurrentColorMode:(BOOL)shortVersion;
 -(NSString *)representationStringOfColorInMode:(int)colorMode shortVersion:(BOOL)shortVersion;
