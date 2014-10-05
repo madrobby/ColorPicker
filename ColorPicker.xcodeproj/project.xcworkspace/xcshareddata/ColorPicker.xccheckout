@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E73A0DEE-501C-4A48-B223-0E7A1F797723</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ColorPicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3449E7A6AF3E75E37077256D81489F72A18536AB</key>
+		<string>https://github.com/Fingertips/ColorPicker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ColorPicker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3449E7A6AF3E75E37077256D81489F72A18536AB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Fingertips/ColorPicker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3449E7A6AF3E75E37077256D81489F72A18536AB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3449E7A6AF3E75E37077256D81489F72A18536AB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ColorPicker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
